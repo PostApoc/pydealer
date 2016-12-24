@@ -6,7 +6,7 @@
     <ProjectGuid>b082aaf2-96e9-4831-8f11-fb9c7cd65a84</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <StartupFile>pydealer.py</StartupFile>
-    <SearchPath>C:\Python27\Lib\site-packages\steam\</SearchPath>
+    <SearchPath>..\</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>pydealer</Name>

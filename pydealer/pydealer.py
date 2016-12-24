@@ -54,8 +54,9 @@ def handle_after_logon():
     LOG.info("Community profile: %s", CLIENT.steam_id.community_url)
     LOG.info("Last logon: %s", CLIENT.user.last_logon)
     LOG.info("Last logoff: %s", CLIENT.user.last_logoff)
-    LOG.info("Last logoff: %s", CLIENT.games_played([40420]))
     LOG.info("-"*30)
+    LOG.info("Starting Tidalis")
+    CLIENT.games_played([40420])
     LOG.info("Press ^C to exit")
 
 
